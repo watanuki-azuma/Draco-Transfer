@@ -1,0 +1,12 @@
+{
+  "name": "draco-transfer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental screen-to-camera file transfer",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node prototypes/browser/server.cjs",
+    "test": "node prototypes/browser/test.cjs",
+    "bench": "node scripts/benchmark-codec.cjs"
+  }
+}

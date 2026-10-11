@@ -1,0 +1,232 @@
+{
+  "kind": "synthetic-codec-benchmark",
+  "measuredAt": "2026-10-11T04:48:37.337Z",
+  "node": "v24.12.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "cpu": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+  "warmup": 2,
+  "runs": 7,
+  "scale": 3,
+  "seed": "0x44524143",
+  "timingIncludes": "decoder only; input rendering and validation excluded",
+  "limitations": "No camera, no display timing, no frame loss, no file assembly or final SHA-256; KiB/s is not end-to-end transfer throughput.",
+  "rows": [
+    {
+      "grid": 96,
+      "colors": 2,
+      "payloadBytes": 676,
+      "imageWidth": 312,
+      "imageHeight": 312,
+      "bounds": {
+        "p50Ms": 0.3265000000000029,
+        "p95Ms": 0.9977000000000018
+      },
+      "sampleKnownMode": {
+        "p50Ms": 0.6959000000000017,
+        "p95Ms": 1.8545000000000016
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.25310000000000343,
+        "p95Ms": 0.42250000000001364
+      },
+      "decodeAuto": {
+        "p50Ms": 1.3175999999999988,
+        "p95Ms": 2.720799999999997
+      },
+      "syntheticPayloadKiBPerSecond": 501.029333636916
+    },
+    {
+      "grid": 96,
+      "colors": 4,
+      "payloadBytes": 1385,
+      "imageWidth": 312,
+      "imageHeight": 312,
+      "bounds": {
+        "p50Ms": 0.5362999999999971,
+        "p95Ms": 0.7215999999999951
+      },
+      "sampleKnownMode": {
+        "p50Ms": 1.0518,
+        "p95Ms": 1.193399999999997
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.5085000000000122,
+        "p95Ms": 1.2405000000000115
+      },
+      "decodeAuto": {
+        "p50Ms": 2.2299000000000007,
+        "p95Ms": 3.242699999999985
+      },
+      "syntheticPayloadKiBPerSecond": 606.5469583837838
+    },
+    {
+      "grid": 96,
+      "colors": 16,
+      "payloadBytes": 2803,
+      "imageWidth": 312,
+      "imageHeight": 312,
+      "bounds": {
+        "p50Ms": 0.3534999999999968,
+        "p95Ms": 0.3558999999999912
+      },
+      "sampleKnownMode": {
+        "p50Ms": 1.5478999999999985,
+        "p95Ms": 1.637200000000007
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.3947000000000003,
+        "p95Ms": 0.5041999999999973
+      },
+      "decodeAuto": {
+        "p50Ms": 3.778400000000005,
+        "p95Ms": 4.093199999999996
+      },
+      "syntheticPayloadKiBPerSecond": 724.4613295310176
+    },
+    {
+      "grid": 192,
+      "colors": 2,
+      "payloadBytes": 2803,
+      "imageWidth": 600,
+      "imageHeight": 600,
+      "bounds": {
+        "p50Ms": 1.1524,
+        "p95Ms": 1.5313000000000159
+      },
+      "sampleKnownMode": {
+        "p50Ms": 2.2372000000000014,
+        "p95Ms": 2.931999999999988
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.4227000000000203,
+        "p95Ms": 0.6115000000000066
+      },
+      "decodeAuto": {
+        "p50Ms": 6.895399999999995,
+        "p95Ms": 9.564799999999991
+      },
+      "syntheticPayloadKiBPerSecond": 396.9754745917571
+    },
+    {
+      "grid": 192,
+      "colors": 4,
+      "payloadBytes": 5639,
+      "imageWidth": 600,
+      "imageHeight": 600,
+      "bounds": {
+        "p50Ms": 1.3466000000000236,
+        "p95Ms": 1.5412999999999784
+      },
+      "sampleKnownMode": {
+        "p50Ms": 3.0237999999999943,
+        "p95Ms": 3.4839999999999804
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.9710999999999785,
+        "p95Ms": 1.0670999999999822
+      },
+      "decodeAuto": {
+        "p50Ms": 10.840599999999995,
+        "p95Ms": 11.633399999999995
+      },
+      "syntheticPayloadKiBPerSecond": 507.98257822445277
+    },
+    {
+      "grid": 192,
+      "colors": 16,
+      "payloadBytes": 11310,
+      "imageWidth": 600,
+      "imageHeight": 600,
+      "bounds": {
+        "p50Ms": 1.2461999999999875,
+        "p95Ms": 1.7456999999999994
+      },
+      "sampleKnownMode": {
+        "p50Ms": 6.368799999999965,
+        "p95Ms": 6.751699999999914
+      },
+      "parseKnownCells": {
+        "p50Ms": 2.4616999999999507,
+        "p95Ms": 3.0698999999999614
+      },
+      "decodeAuto": {
+        "p50Ms": 18.854400000000055,
+        "p95Ms": 19.784099999999967
+      },
+      "syntheticPayloadKiBPerSecond": 585.8007613607416
+    },
+    {
+      "grid": 256,
+      "colors": 2,
+      "payloadBytes": 5009,
+      "imageWidth": 792,
+      "imageHeight": 792,
+      "bounds": {
+        "p50Ms": 2.3501999999999725,
+        "p95Ms": 2.596900000000005
+      },
+      "sampleKnownMode": {
+        "p50Ms": 4.062099999999987,
+        "p95Ms": 6.370200000000068
+      },
+      "parseKnownCells": {
+        "p50Ms": 0.8304000000000542,
+        "p95Ms": 0.9518999999999096
+      },
+      "decodeAuto": {
+        "p50Ms": 20.281000000000063,
+        "p95Ms": 21.167699999999968
+      },
+      "syntheticPayloadKiBPerSecond": 241.19133980079803
+    },
+    {
+      "grid": 256,
+      "colors": 4,
+      "payloadBytes": 10050,
+      "imageWidth": 792,
+      "imageHeight": 792,
+      "bounds": {
+        "p50Ms": 3.196899999999914,
+        "p95Ms": 3.495800000000145
+      },
+      "sampleKnownMode": {
+        "p50Ms": 5.295500000000175,
+        "p95Ms": 6.781500000000051
+      },
+      "parseKnownCells": {
+        "p50Ms": 1.541300000000092,
+        "p95Ms": 2.6163000000001375
+      },
+      "decodeAuto": {
+        "p50Ms": 28.710000000000036,
+        "p95Ms": 30.747100000000046
+      },
+      "syntheticPayloadKiBPerSecond": 341.84789707418975
+    },
+    {
+      "grid": 256,
+      "colors": 16,
+      "payloadBytes": 20132,
+      "imageWidth": 792,
+      "imageHeight": 792,
+      "bounds": {
+        "p50Ms": 2.267699999999877,
+        "p95Ms": 2.534900000000107
+      },
+      "sampleKnownMode": {
+        "p50Ms": 11.47829999999999,
+        "p95Ms": 11.922399999999925
+      },
+      "parseKnownCells": {
+        "p50Ms": 3.1677000000001954,
+        "p95Ms": 3.2869000000000597
+      },
+      "decodeAuto": {
+        "p50Ms": 43.78320000000008,
+        "p95Ms": 47.92370000000005
+      },
+      "syntheticPayloadKiBPerSecond": 449.0342471541588
+    }
+  ]
+}
